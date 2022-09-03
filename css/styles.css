@@ -1,8 +1,22 @@
 /* background-primary-color: #F5F5F5 */
 /* background-secondary-color: #F5F4FA */
-/* main-text-color: #757575 */
+/* primary-text-color: #757575 */
 /* headlines: #212121 */
 /* accent-color: #2196F3 */
 /* footer-background-color: #2F303A */
 /* footer-text-color: #FFFFFF */
+:root {
+    --background-primary-color: #F5F5F5;
+    --background-secondary-color: #F5F4FA;
+    --primary-text-color: #757575;
+    --headlines: #212121;
+    --accent-color: #2196F3;
+    --footer-background-color: #2F303A;
+    --footer-text-color: #FFFFFF;
+}
 
+.page {
+    background-color: var(--background-primary-color);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
