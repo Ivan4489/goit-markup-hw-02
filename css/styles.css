@@ -1,10 +1,3 @@
-/* background-primary-color: #F5F5F5 */
-/* background-secondary-color: #F5F4FA */
-/* primary-text-color: #757575 */
-/* headlines: #212121 */
-/* accent-color: #2196F3 */
-/* footer-background-color: #2F303A */
-/* footer-text-color: #FFFFFF */
 :root {
     --background-primary-color: #F5F5F5;
     --background-secondary-color: #F5F4FA;
@@ -12,7 +5,8 @@
     --headlines: #212121;
     --accent-color: #2196F3;
     --footer-background-color: #2F303A;
-    --footer-text-color: #FFFFFF;
+    --header-background-color: #FFFFFF;
+    --logo-black-color: #000000;
 }
 
 .page {
@@ -20,3 +14,78 @@
     color: var(--primary-text-color);
     font-family: Roboto;
 }
+
+/* Header */
+
+.header {
+    background-color: var(--header-background-color);
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-black-color);
+
+    text-decoration: none;
+
+}
+
+/* Site navigation list */
+
+.site-nav-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    list-style-type: none;
+}
+
+.link {
+    color: var(--headlines);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link:current
+ {
+    color: var(--accent-color);
+}
+
+/* Contact list */
+
+.contact-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    /* Чому не працює? */
+    list-style-type: none; 
+}
+
+.email {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.tel {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+/* background-primary-color: #F5F5F5 */
+/* background-secondary-color: #F5F4FA */
+/* primary-text-color: #757575 */
+/* headlines: #212121 */
+/* accent-color: #2196F3 */
+/* footer-background-color: #2F303A */
+/* header-background-color: #FFFFFF */
+/* logo-black-color:#000000 */
+
