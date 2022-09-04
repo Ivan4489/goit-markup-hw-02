@@ -114,6 +114,7 @@
     letter-spacing: 0.06em;
 
     color: var(--header-background-color);
+    border: transparent;
 }
 
 /* Benefits */
@@ -250,6 +251,56 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* Main Portfolio */
+
+.filter-list {
+    list-style-type: none;
+}
+
+.secondary-buton {
+    background-color: var(--background-secondary-color);
+    border: transparent;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--headlines);
+}
+
+.portfolio-head {
+    color: transparent;
+}
+
+.portfolio-list {
+    list-style-type: none;
+}
+
+.project-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+
+    color: var(--headlines);
+}
+
+.project-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+    }
 
 /* background-primary-color: #F5F5F5 */
 /* background-secondary-color: #F5F4FA */
