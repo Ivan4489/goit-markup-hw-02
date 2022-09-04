@@ -80,6 +80,41 @@
     text-decoration: none;
 }
 
+/* Hero */
+
+.hero {
+    background-color: var(--footer-background-color);
+    color: var();
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--header-background-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--header-background-color);
+}
 /* background-primary-color: #F5F5F5 */
 /* background-secondary-color: #F5F4FA */
 /* primary-text-color: #757575 */
