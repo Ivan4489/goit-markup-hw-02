@@ -60,13 +60,13 @@
 
 /* Contact list */
 
-.contact-list {
+.contacts-list {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    /* Чому не працює? */
+
     list-style-type: none; 
 }
 
@@ -115,6 +115,97 @@
 
     color: var(--header-background-color);
 }
+
+/* Benefits */
+
+.benefit-head {
+    color: transparent
+}
+
+.benefits-list {
+    list-style-type: none;
+}
+
+.benefit-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--headlines);
+}
+
+.benefit-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+}
+
+/* Tasks */
+
+.tasks-head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--headlines);
+}
+
+.tasks-list {
+    list-style-type: none;
+}
+
+/* Team */
+
+.team {
+    background-color: var(--background-secondary-color);
+}
+
+.team-head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--headlines);
+}
+
+.emploee-list {
+    list-style-type: none;
+}
+
+.employee-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+
+    color: var(--headlines);
+}
+
+.position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+
+
+
 /* background-primary-color: #F5F5F5 */
 /* background-secondary-color: #F5F4FA */
 /* primary-text-color: #757575 */
