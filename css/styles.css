@@ -204,6 +204,51 @@
     letter-spacing: 0.03em;
 }
 
+/* Footer */
+
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+
+    color: var(--header-background-color);
+    
+    text-decoration: none;    
+}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: var(--header-background-color);
+}
+
+.contacts-footer-list {
+    list-style-type: none;
+}
+
+.footer-contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
 
 
 /* background-primary-color: #F5F5F5 */
