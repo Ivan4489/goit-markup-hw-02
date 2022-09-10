@@ -34,6 +34,10 @@
 
 }
 
+.accent {
+    color: var(--accent-color);
+}
+
 /* Site navigation list */
 
 .site-nav-list {
