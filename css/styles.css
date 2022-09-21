@@ -295,8 +295,8 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    max-width: 125px;
-    max-height: 38px;
+    min-width: 70px;
+    min-height: 38px;
     border: transparent;
     color: var(--headlines);
     cursor: pointer;
