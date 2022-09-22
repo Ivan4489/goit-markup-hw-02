@@ -23,7 +23,6 @@
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -41,10 +40,10 @@
 /* Site navigation list */
 
 .site-nav-list {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+
     letter-spacing: 0.02em;
 
     list-style-type: none;
@@ -69,10 +68,10 @@
 /* Contact list */
 
 .contacts-list {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+
     letter-spacing: 0.02em;
 
     list-style-type: none; 
@@ -102,11 +101,9 @@
 
 .hero {
     background-color: var(--footer-background-color);
-    color: var();
 }
 
 .hero-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -120,8 +117,6 @@
 
 .primary-button {
     background-color: var(--accent-color);
-
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -147,19 +142,17 @@
 }
 
 .benefit-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+
     text-transform: uppercase;
 
     color: var(--headlines);
 }
 
 .benefit-description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 
@@ -169,11 +162,11 @@
 /* Tasks */
 
 .tasks-head {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
+
     letter-spacing: 0.03em;
 
     color: var(--headlines);
@@ -190,11 +183,11 @@
 }
 
 .team-head {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
+
     letter-spacing: 0.03em;
 
     color: var(--headlines);
@@ -205,7 +198,6 @@
 }
 
 .employee-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -216,8 +208,6 @@
 }
 
 .position {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 
@@ -232,7 +222,6 @@
 
 .logo-footer {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -240,11 +229,10 @@
     letter-spacing: 0.03em;
 
     color: var(--header-background-color);
-    
     text-decoration: none;    
 }
 
-.adress {
+.address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -287,7 +275,6 @@
     background-color: var(--background-secondary-color);
     border: transparent;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -295,8 +282,6 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    min-width: 70px;
-    min-height: 38px;
     border: transparent;
     color: var(--headlines);
     cursor: pointer;
@@ -317,7 +302,6 @@
 }
 
 .project-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -328,10 +312,8 @@
 }
 
 .project-description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
 
     letter-spacing: 0.03em;
 
